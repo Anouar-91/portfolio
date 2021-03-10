@@ -1,0 +1,301 @@
+
+/* barre de progression */
+
+#progress{
+	background-color: cornflowerblue;
+	height: 6px;
+	width: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999; /* Peut être important si vous avez un menu en position fixe */
+}
+
+p{
+    text-align: justify;
+}
+
+body{
+    margin: 0;
+
+}
+
+
+/* navbar fixe */
+header{
+    background-color: white;
+    position: sticky;
+    top: 7px;
+    z-index: 1;
+}
+
+footer{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+
+
+#identite{  
+    width: 25%;
+    margin-left: 15%;
+    margin-bottom: 10px; 
+}
+
+ #nom {
+     font-size: 20px;
+     color : #5b61a7;
+ }
+
+
+
+
+ a {
+     color: black;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: aliceblue;
+}
+
+ #blocImage {
+    display: inline-block;
+    position: relative;
+}
+#texte {
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 7%;
+    color: white;
+    width: 80%;
+}
+
+#Apropos {
+    display: flex;
+
+}
+
+.scroll1{
+    
+    /* permet de faire le scroll */
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
+
+}
+
+.scroll2{
+    
+    /* permet de faire le scroll */
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
+
+}
+
+.scroll3{
+    
+    /* permet de faire le scroll */
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
+
+}
+
+.scroll4{
+    
+    /* permet de faire le scroll */
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
+
+}
+.scroll5{
+    
+    /* permet de faire le scroll */
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
+
+}
+
+
+
+.texte{
+    text-align: justify;
+    font-size: large;
+    margin: auto;
+    width: 30%;
+    
+}
+/* permet de faire le scroll */
+.active{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.trait
+{
+background-color:cornflowerblue;
+height: 5pt;
+width: 100%;
+}
+
+
+
+#formation {
+    margin-top: 80px;
+}
+
+#texteFormation {
+    width: 50%;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+#expPro {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#texteExpPro {
+    text-align: justify;
+    width: 50%;
+}
+
+
+#moonlight  {
+    max-width: 100%;
+	height: auto;
+}
+
+strong
+{
+    color: cornflowerblue;
+}
+
+i {
+    color: cornflowerblue;
+}
+
+p strong a{
+    color: #e95420;
+    text-decoration: none;
+}
+
+.alert{
+    background-color :cornflowerblue; color : white; opacity : 80%;
+}
+
+
+.box2 {
+    padding: 15px 20px 10px;
+    background-color: #ffffff;
+    border: 1px solid #e3e2e7;
+    overflow: hidden;
+    position: relative;
+    min-height: 478px;
+    margin-bottom: 20px;
+}
+.box2 p
+{
+	text-align: justify;
+}
+.box2 h2
+{
+	text-align: center;
+	min-height:98px;
+}
+.box2 .text-center
+{
+	text-align: center!important;
+}
+.box2:hover:before {
+    background-color:cornflowerblue;
+    opacity: 1;
+}
+.box2:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: 1;
+    transition: 0.3s all ease-out;
+}
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+.box2:hover .bg1 {
+    opacity: .1;
+}
+.image img {
+    height: 100%;
+}
+.bg1 {
+    opacity: 0;
+}
+.box2 .content {
+    position: relative;
+    z-index: 99;
+}
+.box2:hover .content i {
+    color: #fff;
+}
+.box2 .content i {
+    font-size: 50px;
+    color: #e3e3e3;
+}
+.box2:hover .content p {
+    color: #fff;
+}
+.box2:hover h5  {
+    color: #fff;
+}
+.lien-button{
+    text-decoration: none;
+
+}
+
+/* Cover image */
+.titreProjet{
+    background:url(../../img/ampoule.jpg) center fixed;
+    position:relative;
+    padding:100px 0;
+    background-size:cover;
+    margin-bottom: 60px;
+}
+.TitreExperiencePro{
+    background:url(../../img/experiencePro.jpg) center fixed;
+    position:relative;
+    padding:100px 0;
+    background-size:cover;
+    margin-bottom: 60px;
+}
+.TitreDiplome{
+    background:url(../../img/diplome2.jpg) center fixed;
+    position:relative;
+    padding:100px 0;
+    background-size:cover;
+    margin-bottom: 60px;
+}
+
+h3{
+    font-size: x-large;
+    text-shadow : 3px 3px 3px black;
+}
