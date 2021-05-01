@@ -24,11 +24,6 @@ header{
     z-index: 1;
 }
 
-footer{
-    background-color: white;
-    position: fixed;
-    bottom: 0;
-}
 
 
 
@@ -283,14 +278,14 @@ p strong a{
     margin-bottom: 60px;
 }
 .TitreDiplome{
-    background:url(../../img/diplome2.jpg) center fixed;
+    background:url(../../img/diplome2-min.jpg) center fixed;
     position:relative;
     padding:100px 0;
     background-size:cover;
     margin-bottom: 60px;
 }
 .titrePassion{
-    background:url(../../img/photoshop.jpg) center fixed;
+    background:url(../../img/photoshop-min.jpg) center fixed;
     position:relative;
     padding:100px 0;
     background-size:cover;
@@ -300,4 +295,12 @@ p strong a{
 h3{
     font-size: x-large;
     text-shadow : 3px 3px 3px black;
+}
+
+footer{
+    padding-top: 70px;
+    padding-bottom:70px ;
+    margin-top: 100px;
+    background-color: rgb(170, 170, 170);
+    color: white;
 }
